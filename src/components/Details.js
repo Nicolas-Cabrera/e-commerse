@@ -4,7 +4,7 @@ export default function Details() {
 
 	return (
 		<React.Fragment>
-			<h3>Hello from Details</h3>
+			<h3>Hello from Product Details</h3>
 		</React.Fragment>
 	)
 }
