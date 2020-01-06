@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar';
 import ProductList from './components/Products/ProductList';
 import Details from './components/Details/Details';
-import Cart from './components/Cart';
+import Cart from './components/Cart/Cart';
 import NotFound from './components/NotFound';
 // import homeIcon from './Images/home.png';
 
@@ -15,9 +15,9 @@ function App() {
 			<Navbar />
 			<Switch>
 				<Route exact path='/' component={ProductList} />
-				<Route path='/:productId' component={Details} />
+				<Route path='/Not-found' component={NotFound} />
 				<Route path='/cart' component={Cart} />
-				<Route component={NotFound} />
+				<Route path='/:productId' component={Details} />
 			</Switch>
 	  </Router>
   );

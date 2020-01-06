@@ -1,0 +1,17 @@
+.product-detail-section {
+	display: flex;
+}
+
+.details-right-side {
+	width: 50%;
+	margin-top: 70px;;
+}
+
+.detail-image {
+	width: 50%;
+	margin: 50px;
+}
+
+.adding-product {
+	display: flex;
+}

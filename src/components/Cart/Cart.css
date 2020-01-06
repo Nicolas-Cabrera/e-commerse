@@ -1,0 +1,7 @@
+.cart-section {
+	display: flex;
+}
+
+.cart-product-section {
+	width: 70%;
+}
