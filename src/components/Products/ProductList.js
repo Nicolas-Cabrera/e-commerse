@@ -9,7 +9,7 @@ export default function ProductList() {
 		<React.Fragment>
 			<div>
 				<div className='container'>
-					<h1 className='title'>Our Products!</h1>
+					<h1 className='title'>Our Products!!!</h1>
 					<div className='product-list'>
 						{
 							ProductsData().map(product => (
